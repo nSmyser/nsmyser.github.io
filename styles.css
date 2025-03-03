@@ -6,6 +6,11 @@
     padding: 0;
     color: #333;
     text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
 }
 
 /* Header Styling */
@@ -14,6 +19,7 @@
     color: white;
     text-align: center;
     padding: 20px 0;
+    width: 100%;
 }
 
 /* Navigation Bar */
@@ -21,12 +27,14 @@
     background-color: #34495e;
     padding: 10px 0;
     text-align: center;
+    width: 100%;
 }
 .nav-class a {
     color: white;
     text-decoration: none;
     padding: 10px 15px;
     font-weight: bold;
+    display: inline-block;
 }
 .nav-class a:hover {
     background-color: #1abc9c;
@@ -44,6 +52,7 @@
     color: #555;
     line-height: 1.6;
     text-align: center;
+    max-width: 80%;
 }
 
 /* Images */
@@ -97,6 +106,7 @@
     text-align: center;
     padding: 10px 0;
     margin-top: 20px;
+    width: 100%;
 }
 
 /* Responsive Design */
