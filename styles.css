@@ -5,6 +5,7 @@
     margin: 0;
     padding: 0;
     color: #333;
+    text-align: center;
 }
 
 /* Header Styling */
@@ -35,12 +36,14 @@
 /* Headings */
 .title-class, .section-title-class {
     color: #1abc9c;
+    text-align: center;
 }
 
 /* Text */
 .text-class {
     color: #555;
     line-height: 1.6;
+    text-align: center;
 }
 
 /* Images */
@@ -61,6 +64,7 @@
     margin: auto;
     border-radius: 5px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
 }
 .label-class {
     font-weight: bold;
